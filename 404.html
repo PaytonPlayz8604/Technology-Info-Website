@@ -61,7 +61,7 @@
       href="https://paytonplayz8604.github.io/Technology-Info-Website/index.html"> Go back home. </a></h2>
 
   <!-- CLASSWORK -->
-  <!--<p id="demo"></p>-->
+  <p id="demo" onclick="button1">Click me.</p>
 
   <script>
     function sum(...args) {
@@ -73,6 +73,11 @@
     console.log("The answer is " + x + ".");
 
     console.log("ATTENTION! We could not find this webpage on our website, so you've been redirected to our 404 page. Please return home.");
+
+    function button1() {
+      document.getElementById("button").innerHTML = "You clicked me!"
+    }
+
   </script>
 
 </body>
