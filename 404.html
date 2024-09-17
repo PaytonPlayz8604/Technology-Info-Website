@@ -82,9 +82,16 @@
     console.log("ATTENTION! We could not find this webpage on our website, so you've been redirected to our 404 page. Please return home.");
 
     function button1() {
-      document.getElementById("button1").innerHTML = ":[";
-      alert(":[")
-      console.log(":[")
+      let button = document.getElementById("button1");
+      if (button.innerHTML === ":[") {
+        button.innerHTML = ":]";
+        alert(":]");
+        console.log(":]");
+      } else {
+        button.innerHTML = ":[";
+        alert(":[");
+        console.log(":[");
+      }
     }
 
   </script>
