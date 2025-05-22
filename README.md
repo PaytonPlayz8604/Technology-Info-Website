@@ -1,7 +1,7 @@
 # Technology Information Website
 
 ## 📌 Overview
-This was one of my very first website. This showcases information about different types of technology.
+This was one of my very first websites. This showcases information about different types of technology.
 
 ## 💻 Languages Used
 This website was built using:
